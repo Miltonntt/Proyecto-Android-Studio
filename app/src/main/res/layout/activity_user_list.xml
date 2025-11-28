@@ -26,15 +26,14 @@
         android:padding="8dp" />
 
     <Button
-        android:id="@+id/btnVolver"
+        android:id="@+id/btnOpenManage"
+        android:text="Panel de gestión"
+        android:background="@drawable/btn_forest"
+        android:textColor="@android:color/white"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Volver"
-        android:textColor="#FFFFFF"
-        android:padding="14dp"
-        android:background="@drawable/btn_forest_light"
-        android:stateListAnimator="@null"
         android:layout_marginTop="16dp" />
+
 
 </LinearLayout>
 
